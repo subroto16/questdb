@@ -144,9 +144,6 @@ open module io.questdb {
             io.questdb.griffin.engine.functions.bool.AndFunctionFactory,
             io.questdb.griffin.engine.functions.bool.NotFunctionFactory,
 
-            // [] operators
-            io.questdb.griffin.engine.functions.array.StrArrayDereferenceFunctionFactory,
-            io.questdb.griffin.engine.functions.array.IntArrayDereferenceHackFunctionFactory,
             // '=' operators
             io.questdb.griffin.engine.functions.eq.EqStrFunctionFactory,
             io.questdb.griffin.engine.functions.eq.EqVarcharFunctionFactory,
